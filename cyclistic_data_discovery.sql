@@ -48,6 +48,7 @@ FROM
 
 
 -- COUNT unique records exclusive to subscribers, customers, and shared by both groups
+-- returned 46657 shared records, 22297 subscriber records, and 9211 customer records
 
 WITH undirected_routes AS (
   SELECT
