@@ -90,6 +90,13 @@ CREATE TABLE `yobpractice-466113.divvy2019.Cyclistic_2019_Combined` AS (
 );
 
 
+-- Check total record count for combined table returning 3818004 records
+
+SELECT 
+  COUNT(*) AS `Total_Records`
+FROM `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
+
+  
 -- Add day_of_week column
 
 ALTER TABLE `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
