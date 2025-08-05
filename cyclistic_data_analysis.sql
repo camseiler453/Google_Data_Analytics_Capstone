@@ -96,7 +96,8 @@ SELECT
   COUNT(usertype) AS customer_starts,
   from_station_id,
   from_station_name
-FROM `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
+FROM 
+  `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
 WHERE
   usertype = "Customer"
 GROUP BY
@@ -113,7 +114,8 @@ SELECT
   COUNT(usertype) AS customer_ends,
   to_station_id,
   to_station_name
-FROM `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
+FROM 
+  `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
 WHERE
   usertype = "Customer"
 GROUP BY
@@ -148,7 +150,8 @@ SELECT
   COUNT(usertype) AS subscriber_ends,
   to_station_id,
   to_station_name
-FROM `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
+FROM 
+  `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
 WHERE
   usertype = "Subscriber"
 GROUP BY
