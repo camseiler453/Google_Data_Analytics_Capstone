@@ -1,4 +1,4 @@
--- Data Preparation and Cleaning
+-- Data Cleaning
 
 -- Check for nulls in each column of the dataset
 
