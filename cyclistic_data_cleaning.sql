@@ -16,7 +16,8 @@ SELECT
   SUM(CASE WHEN `gender` IS NULL THEN 1 ELSE 0 END) AS `gender`,
   SUM(CASE WHEN `birthyear` IS NULL THEN 1 ELSE 0 END) AS `birthyear`,
   SUM(CASE WHEN `day_of_week` IS NULL THEN 1 ELSE 0 END) AS `day_of_week`
-FROM `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`;
+FROM 
+  `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`;
 
 
 -- Check for nulls in birthyear and gender per usertype
@@ -39,7 +40,8 @@ GROUP BY
 SELECT 
   *, 
   COUNT(*) AS duplicate_count
-FROM `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
+FROM 
+  `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
 GROUP BY 
   trip_id, 
   start_time, 
@@ -86,7 +88,7 @@ CREATE TABLE `yobpractice-466113.divvy2019.Cyclistic_2019_Combined` AS (
   FROM `yobpractice-466113.divvy2019.Divvy_Trips_Q3`
     UNION ALL
   SELECT *
-  FROM `yobpractice-466113.divvy2019.Divvy_Trips_Q4`
+  FROM  `yobpractice-466113.divvy2019.Divvy_Trips_Q4`
 );
 
 
@@ -94,7 +96,8 @@ CREATE TABLE `yobpractice-466113.divvy2019.Cyclistic_2019_Combined` AS (
 
 SELECT 
   COUNT(*) AS `Total_Records`
-FROM `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
+FROM 
+  `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
 
   
 -- Add day_of_week column
