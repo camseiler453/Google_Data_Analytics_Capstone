@@ -176,8 +176,13 @@ FROM (
       WHEN from_station_id = to_station_id THEN 'Loop Trip'
       ELSE 'One-Way Trip'
     END AS trip_type
-  FROM `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
+  FROM 
+  `yobpractice-466113.divvy2019.Cyclistic_2019_Combined`
   WHERE usertype IS NOT NULL
 ) AS trip_classification
-GROUP BY usertype, trip_type
-ORDER BY usertype, trip_type
+GROUP BY 
+  usertype, 
+  trip_type
+ORDER BY 
+  usertype, 
+  trip_type
