@@ -1,5 +1,8 @@
 # Google Data Analytics Capstone
 Capstone Project for the Google Data Analytics Certificate. Analyzes 2019 Cyclistic trip data to compare differences in Customer and Subscriber ride behavior. Involves data cleaning, SQL queries, and Tableau visualizations to uncover trends and support data-driven marketing strategy recommendations.
+
+Tableau: https://public.tableau.com/app/profile/cameron.seiler/vizzes
+SQL: cyclistic_data_analysis.sql
 # Introduction
 I recently completed the Google Data Analytics Professional Certificate, learning about the data analysis process and the basics of popular data analysis tools. The six steps of the data analysis process taught in the course are Ask, Prepare, Process, Analyze, Share, and Act. I learned the basics of data analysis tools such as spreadsheets, SQL, R, and Tableau to work through the data analysis process. At the end of the course, we are assigned a case study, where I am a junior data analyst for the marketing team at the fictional company, Cyclistic. 
 # Background
