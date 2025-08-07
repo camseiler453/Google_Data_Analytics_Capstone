@@ -4,6 +4,7 @@ Capstone Project for the Google Data Analytics Certificate. Analyzes 2019 Cyclis
 Tableau: https://public.tableau.com/app/profile/cameron.seiler/vizzes
 
 SQL: 
+
 [Data Cleaning](cyclistic_data_cleaning.sql)
      
 [Data Discovery](cyclistic_data_discovery.sql)
