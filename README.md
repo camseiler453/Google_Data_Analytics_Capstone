@@ -124,7 +124,7 @@ Based on my findings, I have come up with three recommendations for the executiv
 
 1. Implement a segmented marketing based approach, focusing on each user types behavior. For customers, focus on leisure and experiences. For subscribers focus on convenience, accessibility, and utility.
 
-2. Our goal is to convert customers to subscribers, so lets focus our ad campaigns at their most frequented stations. We can offer more flexible subscription plans for previous customers exlusively at these locations.
+2. Our goal is to convert customers to subscribers, so lets focus our ad campaigns at their most frequented stations. We can offer more flexible subscription plans for previous customers exclusively at these locations.
 
 3. Create "Cyclistic Routes", focusing exclusively on optimizing recreational experiences by finding trendy and scenic routes. Create Cyclistic riding groups, creating a social incentive for riders to join together and explore Chicago. 
 
