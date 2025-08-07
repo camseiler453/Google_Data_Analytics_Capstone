@@ -2,9 +2,13 @@
 Capstone Project for the Google Data Analytics Certificate. Analyzes 2019 Cyclistic trip data to compare differences in Customer and Subscriber ride behavior. Involves data cleaning, SQL queries, and Tableau visualizations to uncover trends and support data-driven marketing strategy recommendations.
 
 Tableau: https://public.tableau.com/app/profile/cameron.seiler/vizzes
-SQL: [Data Cleaning](cyclistic_data_cleaning.sql)
-     [Data Discovery](cyclistic_data_discovery.sql)
-     [Data Analysis](cyclistic_data_analysis.sql)
+
+SQL: 
+[Data Cleaning](cyclistic_data_cleaning.sql)
+     
+[Data Discovery](cyclistic_data_discovery.sql)
+    
+[Data Analysis](cyclistic_data_analysis.sql)
 
 
 # Introduction
